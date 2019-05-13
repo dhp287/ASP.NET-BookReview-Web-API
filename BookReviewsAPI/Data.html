@@ -52,7 +52,7 @@
             <div id="divErrorText"></div>
         </div>
     </div>
-    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -81,7 +81,7 @@
                         $('#divData').removeClass('hidden');
                         $('#tblBody').empty();
                         var i = 0
-                        $.each(data, function () {
+                        $.each(data['value'], function () {
                             var row = $('<tr><td>' + data['value'][i]['Id'] + '</td><td>'
                                 + data['value'][i]['BookTitle'] + '</td><td>'
                                 + data['value'][i]['Url'] + '</td><td>'
@@ -89,7 +89,7 @@
                                 + data['value'][i]['Byline'] + '</td><td>'
                                 + data['value'][i]['BookAuthor'] + '</td><td>'
                                 + data['value'][i]['Summary'] + '</td></tr>');
-                            $('#tblData').append(row);
+                            $('#tblBody').append(row);
                             i = i + 1;
                         });
                     },
