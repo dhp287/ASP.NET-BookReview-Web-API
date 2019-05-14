@@ -6,10 +6,10 @@
 * You can add data to the API using Reviews.py python script.
 
 #### Register a user
-![](img5.png)
+![](Images/img5.png)
 #### Enter username and password to either login and get the data from API or to get the token associated with the user
-![](img2.png)
+![](Images/img2.png)
 #### If you click get token, you get the token associated with the user.
-![](img3.png)
+![](Images/img3.png)
 #### If you click login, you get data from the API.
-![](img4.png)
+![](Images/img4.png)
