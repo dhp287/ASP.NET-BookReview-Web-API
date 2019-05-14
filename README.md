@@ -6,7 +6,7 @@
 
 #### Register a user
 ![](img5.png)
-#### Enter username and password to either login get the data from API or to get the token associated with the user
+#### Enter username and password to either login and get the data from API or to get the token associated with the user
 ![](img2.png)
 #### If you click get token, you get the token associated with the user.
 ![](img3.png)
